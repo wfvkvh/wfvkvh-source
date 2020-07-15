@@ -130,7 +130,7 @@ excerpt_separator: "```"
    SELECT tb_id+1,tb_id+3-5,tb_id-4+9 FROM tb_a;
 ```
 比较运算符
-![](/img/20180513/2.jpg){:height="100%" width="100%"}
+![](/blog/images/20180513/2.jpg)
 
 21. group by + having + limit
 ```sq

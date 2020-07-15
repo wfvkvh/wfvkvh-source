@@ -97,4 +97,4 @@ public void onStartup(@Nullable Set<Class<?>> webAppInitializerClasses, ServletC
 ```
 
 #### **4.WebApplicationInitializer**的继承结构：
-![](/img/20180515/1.png){:height="100%" width="100%"}
+![](/blog/images/20180515/1.png)
