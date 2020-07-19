@@ -12,6 +12,8 @@
     "version": "4.2.1"
   },
   "dependencies": {
+    "acorn": "^7.3.1",
+    "eslint": "^7.5.0",
     "hexo": "^4.2.1",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
