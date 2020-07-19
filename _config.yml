@@ -15,7 +15,7 @@ timezone: ''
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: http://cc7lx2lzfbv2sb6bi.gitee.io/blog
 url: https://rosemarry7.github.io/blog/
-root: /blog/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,6 +100,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/rosemarry7/blog.git
+  repo: https://github.com/rosemarry7/rosemarry7.git
   #repo: https://gitee.com/CC7Lx2LZFbv2sB6bi/blog.git
   branch: master
