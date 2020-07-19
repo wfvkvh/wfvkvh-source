@@ -103,7 +103,7 @@ mysql> update test_blocking set name='kk' where id=1;
 mysql> show engine innodb status\G;
 ```
 
-![](/blog/images/20180520/12.png)
+![](/images/20180520/12.png)
 
 使用show engine innodb status命令后，可以查看其输出的TRANSACTIONS部分信息，如上截图所示，找到类似TRX HAS BEEN WATING …部分的信息，
 
@@ -166,7 +166,7 @@ Record lock, heap no 2 PHYSICAL RECORD: n_fields 4; compact format; info bits 0
  3: len 5; hex 6b65727279; asc kerry;;         #该字段表示的是此记录的第二个字段，长度为5，值为kerry（如果表有多个字段，那么此处后面还有记录）
 ```
 
-![](/blog/images/20180520/13.png)
+![](/images/20180520/13.png)
 
     
 ```sql
@@ -181,7 +181,7 @@ mysql> select * from information_schema.INNODB_SYS_DATAFILES where space=337;
 mysql>
 ```
 
-![](/blog/images/20180520/14.png)
+![](/images/20180520/14.png)
 
 ```sql
 mysql> select * from information_schema.INNODB_SYS_DATAFILES where space=337;
@@ -198,7 +198,7 @@ mysql>
 ### 2: Innotop工具
 
 
-![](/blog/images/20180520/15.png)
+![](/images/20180520/15.png)
 
     
 如下所示，Innotop工具很多情况下也不能定位到阻塞的语句（Blocking Query）， 也仅仅能获取一些锁相关信息
@@ -280,7 +280,7 @@ ORDER  BY d.trx_started\G;
 
 如下截图所示，第一个SQL语句能够查到线程19 被线程 17阻塞了， 被阻塞的SQL语句为“update test_blocking set name=’kk’ where id=1;”, 能够查到被阻塞了多长时间，但是无法查到源头SQL语句。此时就需要第二个SQL语句登场，找到源头语句。
 
-![](/blog/images/20180520/16.png)
+![](/images/20180520/16.png)
 
 但是不要太天真的认为第二个SQL语句能够获取所有场景下的阻塞源头SQL语句，实际业务场景，会话可能在执行一个存储过程或复杂的业务，有可能它执行完阻塞源头SQL后，继续在执行其它SQL语句，此时，你抓取的是这个连接会话最后执行的SQL语句，如下所示，我简单构造了一个例子。就能构造这样的一个场景。这个我曾经写过一篇博客“[为什么数据库有时候不能定位阻塞（Blocker）源头的SQL语句](http://www.cnblogs.com/kerrycode/p/5821413.html)”，分析SQL Server和ORACLE 定位查找阻塞源头SQL语句，现在看来真是大道同源，殊途同归。
 
@@ -299,7 +299,7 @@ Query OK, 1 row affected (0.00 sec)
 mysql>
 ```
 
-![](/blog/images/20180520/17.png)
+![](/images/20180520/17.png)
 
     
 总结： 最简单、方便的还是上面两个SQL查询定位blocker的SQL语句，但是需要注意：有时候它也查不到真正阻塞的源头SQL语句。所以还需结合应用程序代码与上下文环境进行整体分析、判断！
