@@ -348,7 +348,7 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: solarized-dark
+    light: vs2015
     dark: tomorrow-night
   prism:
     light: prism
@@ -440,7 +440,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Source Code Pro
+    family: Roboto Slab
 
 
 # ---------------------------------------------------------------
