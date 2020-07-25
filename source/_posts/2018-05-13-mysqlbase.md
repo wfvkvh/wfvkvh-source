@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「数据库」MySQL基础语法
-time: 2018年05月13日 星期一
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- 数据库
 ---
 1. 创建数据库
 ```sql

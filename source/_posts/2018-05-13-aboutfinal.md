@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「并发」一个由final引起的低级错误引发的思考
-time:   2018年05月13日 星期日
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- 并发
 ---
 
 今天在看java.util.Collections集合工具类中的synchronizedMap()时，看到其内部静态类Synchronized构造方法上迷糊了一下

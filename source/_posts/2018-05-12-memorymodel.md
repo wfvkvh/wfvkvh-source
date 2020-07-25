@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「并发」Java并发基础之内存模型
-time: 2018年05月12日 星期六
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- 并发
 ---
 
 > 文章来自网站 [JAVADOOP](https://www.javadoop.com/)

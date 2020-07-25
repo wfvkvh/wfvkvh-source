@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title:  「NodeJS」升级Node js和npm
-time: 2018年05月23日 星期三 
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- NodeJS
 ---
 
 一行命令搞定npm和node.js的升级，省去了重新编译和安装的过程。具体如下：

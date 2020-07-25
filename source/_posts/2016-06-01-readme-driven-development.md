@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 函数定义、重载，函数声明与表达式
-time: 2016年07月1日 星期四
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- Java
 ---
 
 

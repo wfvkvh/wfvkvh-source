@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「学习方法」学习驱动力
-time: 2018年05月18日 星期五
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- 学习方法
 ---
 
 学习驱动力。

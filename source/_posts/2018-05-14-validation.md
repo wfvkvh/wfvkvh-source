@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title:  「Spring」Java校验API所提供的校验注解
-time: 2018年05月14日 星期一
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- Spring
 ---
 
 Java 校验API （Java Validation API 又称JSR-303）。

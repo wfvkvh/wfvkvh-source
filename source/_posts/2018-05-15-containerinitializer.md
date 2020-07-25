@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「Spring」SpringMVC中的AbstractAnnotationConfigDispatcherServletInitializer说明
-time: 2018年05月15日 星期二
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- Spring
 ---
 
 #### **1.AbstractAnnotationConfigDispatcherServletInitializer**简单说明:

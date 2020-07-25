@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 使用Jekyll搭建静态博客[转]
+tags: 
+- Jekyll
 ---
 
 {{ page.title }}

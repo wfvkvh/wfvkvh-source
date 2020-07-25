@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Python核心编程，第四章习题
-time: 2017年01月18日 星期六
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- Python
 ---
 
 ================

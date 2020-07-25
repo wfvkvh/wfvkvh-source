@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「学习」工作中如何做好技术积累
-time: 2018年05月22日 星期二
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- 学习方法
 ---
 > 文章来自[美团-刘丁](https://tech.meituan.com/study_vs_work.html)
 

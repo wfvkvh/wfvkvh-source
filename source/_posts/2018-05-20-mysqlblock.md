@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「数据库」MySQL Innodb如何找出阻塞事务源头SQL
-time: 2018年05年20日 星期日
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- 数据库
 ---
 
 > 本文转自 [潇湘隐者](http://www.cnblogs.com/kerrycode/p/8948335.html)

@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「MyBatis」聊聊MyBatis缓存机制
-time: 2018年05月22日 星期二
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- MyBatis
 ---
 
 ### 前言

@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「MyBatis」MyBatis中的OGNL用法
-time: 2018年05月21日 星期一
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- MyBatis
 ---
 
 在MyBatis的动态SQL和${}形式的参数中都用到了OGNL表达式，所以这里介绍一些简单用法。

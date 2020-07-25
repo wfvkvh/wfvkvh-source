@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「序列化」用 Maven 实现一个 protobuf 的 Java 例子
-time: 2018年05月19日 星期六
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- 序列化
 ---
 ### 1. 介绍Protocol Buffers
 

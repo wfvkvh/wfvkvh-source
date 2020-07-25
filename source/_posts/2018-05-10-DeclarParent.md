@@ -1,10 +1,8 @@
 ---
 layout: post_layout
 title: 「Spring」DeclareParents注释声明对象的AOP错误
-time: 2018年05月10日 星期四
-location: 北京
-pulished: true
-excerpt_separator: "```"
+tags: 
+- Spring
 ---
 
 今天在使用Spring的 @DeclareParents注释时，使用AspectJ拓展对象的接口
