@@ -45,7 +45,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Show multilingual switcher in footer.
-language_switcher: true
+language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -114,7 +114,7 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  #about: /about/ || fa fa-user
+  about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
