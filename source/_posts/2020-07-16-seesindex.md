@@ -57,3 +57,12 @@ When you learn about a framework, it’s important to know not only what it does
 * Set high standards for code quality. The Spring Framework puts a strong emphasis on meaningful, current, and accurate javadoc. It is one of very few projects that can claim clean code structure with no circular dependencies between packages.
 
 * 为代码质量设置高标准。Spring 框架强调有意义的、当前的和准确的 javadoc。它是少数几个可以声称代码结构清晰、包之间没有循环依赖关系的项目之一。
+
+## 轮子哥对于IoC的一点看法
+
+设计模式的好处还有一点，就是他做出来的样子性能很高。虽然扩展点的意思就是我在编译的时候不知道到底会命中哪个扩展，但是大多数扩展都是O(1)命中的（除了责任链模式） 。与之相关的还有IoC，也就是Inverse of Control，这也是一个好东西。Inverse of Control讲的是，**类与类之间的依赖是可扩展的，而且是强类型的，并且你还不需要在类的内部指定（因此跟组合不一样）。当一个类需要用到他的依赖的时候，他不需要主动去获取他，而是可以等别人把依赖塞给他，然后再做事情**。
+
+作者：vczh
+链接：https://zhuanlan.zhihu.com/p/19835717
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
