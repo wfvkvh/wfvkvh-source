@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用Jekyll搭建静态博客[转]
+date: 2016-06-01
 tags: 
 - Jekyll
 ---

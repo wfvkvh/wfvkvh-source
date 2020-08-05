@@ -1,6 +1,7 @@
 ---
 layout: post_layout
 title: 「MyBatis」聊聊MyBatis缓存机制
+date: 2018-05-22
 tags: 
 - MyBatis
 ---

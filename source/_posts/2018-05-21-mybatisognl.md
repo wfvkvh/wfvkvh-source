@@ -1,6 +1,7 @@
 ---
 layout: post_layout
 title: 「MyBatis」MyBatis中的OGNL用法
+date: 2018-05-21
 tags: 
 - MyBatis
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: 「Springboot」Springboot启动程序简单介绍
-time: 2018年05月16日 星期三
+date: 2018-05-16
 location: 北京
 pulished: true
 excerpt_separator: "```"

@@ -1,6 +1,7 @@
 ---
 layout: post_layout
 title: 「Spring」SpringMVC中的AbstractAnnotationConfigDispatcherServletInitializer说明
+date: 2018-05-15
 tags: 
 - Spring
 ---
