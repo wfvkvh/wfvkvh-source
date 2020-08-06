@@ -1,6 +1,7 @@
 ---
 layout: post_layout
 title: 「学习」工作中如何做好技术积累
+date: 2018-05-22
 tags: 
 - 学习方法
 ---

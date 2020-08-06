@@ -1,6 +1,7 @@
 ---
 layout: post_layout
 title: 「序列化」用 Maven 实现一个 protobuf 的 Java 例子
+date: 2018-05-19
 tags: 
 - 序列化
 ---

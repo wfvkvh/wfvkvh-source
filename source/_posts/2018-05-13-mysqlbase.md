@@ -1,6 +1,7 @@
 ---
 layout: post_layout
 title: 「数据库」MySQL基础语法
+date: 2018-05-13
 tags: 
 - 数据库
 ---

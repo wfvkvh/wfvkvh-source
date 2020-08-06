@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: 「Spring」深入分析Spring框架中AOP与动态代理的整合原理
-time: 2018年05月18日 星期五
+date: 2018-05-18
 location: 北京
 pulished: true
 excerpt_separator: "```"
